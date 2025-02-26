@@ -30,9 +30,18 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Redux" />
         <SkillList src={checkMarkIcon} skill="Webpack" />
         <SkillList src={checkMarkIcon} skill="Git" />
-        <SkillList src={checkMarkIcon} skill="Jest" />
+        <SkillList src={checkMarkIcon} skill="Docker" />
         <SkillList src={checkMarkIcon} skill="Bootstrap" />
       </div>
+      <hr />
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="Mysql" />
+        <SkillList src={checkMarkIcon} skill="Sql server" />
+        <SkillList src={checkMarkIcon} skill="MongoDb" />
+        <SkillList src={checkMarkIcon} skill="Postgresql" />
+      </div>
+     
+
     </section>
   );
 }

@@ -10,7 +10,6 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
-
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
@@ -23,9 +22,9 @@ function Hero() {
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
-          src={heroImg}
+          src="https://st.quantrimang.com/photos/image/2021/08/16/Anh-vit-cute-6.jpg"
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture of Tien Dat"
         />
         <img
           className={styles.colorMode}
@@ -36,16 +35,16 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Harris
+          Tiến
           <br />
-          Johnsen
+          Đạt
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>SoftWare Developer</h2>
         <span>
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/TienDat-30404" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
           <a href="https://linkedin.com/" target="_blank">
@@ -53,8 +52,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          Passionate about crafting scalable and efficient software solutions that drive business success.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
